@@ -1,0 +1,13 @@
+syntax = "proto2";
+
+package com.company.humainIdentity;
+
+
+
+message HumainIdentityDescription{
+    required string humain_first_name = 1;
+    required string humain_last_name = 2;
+    required int32 humain_age = 3; 
+    required bool humain_gender = 4;
+    optional string humain_profession = 5 [default="No Profession"];
+} 

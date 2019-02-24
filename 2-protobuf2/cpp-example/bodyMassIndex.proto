@@ -1,0 +1,9 @@
+syntax = "proto2";
+
+package com_company_bodyMassIndex;
+
+
+message BodyMassIndex{
+    required float height = 1; 
+    required float weight = 2;
+}

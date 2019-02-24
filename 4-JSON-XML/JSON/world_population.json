@@ -1,0 +1,24 @@
+{
+   "countries" : {
+      "Algeria" : {
+         "country_area_km_square" : 2381741,
+         "population" : 42008054,
+         "population_percentage_growth_rate" : 1.6699999999999999
+      },
+      "China" : {
+         "country_area_km_square" : 9706961,
+         "population" : 1415045928,
+         "population_percentage_growth_rate" : 0.39000000000000001
+      },
+      "France" : {
+         "country_area_km_square" : 551695,
+         "population" : 65233271,
+         "population_percentage_growth_rate" : 0.39000000000000001
+      },
+      "India" : {
+         "country_area_km_square" : 3287590,
+         "population" : 1354051854,
+         "population_percentage_growth_rate" : 1.1100000000000001
+      }
+   }
+}

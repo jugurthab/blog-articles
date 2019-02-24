@@ -1,0 +1,14 @@
+
+message AirCraft{
+    required string aircraft_model = 1;
+    required double aircraft_max_speed = 2;
+    
+    message TransmissionAndDiscovery{
+        required string transmission_frequency_technology_version = 1;
+        required double transmission_frequency = 2;
+        required double transmission_frequency_range = 3;
+        
+    }
+
+    required bool aircraft_stealthy = 3;
+}

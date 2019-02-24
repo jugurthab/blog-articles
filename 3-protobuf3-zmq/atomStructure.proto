@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package com_company_atom;
+
+message AtomStructure{
+     string atom_name = 1;
+     int32 atom_nb_protons = 2;
+     int32 atom_nb_neutrons = 3;
+     int32 atom_nb_electrons = 4;
+     bool atom_is_radioactive = 5;
+}
+
+

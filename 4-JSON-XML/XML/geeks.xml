@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?> <!-- XML prolog -->
+<!-- Define root element geeks -->
+<geeks>
+      <!-- First geek -->
+      <geek>
+             <name>dennis ritchie</name>
+             <year_of_birth>1941</year_of_birth>
+             <country_of_birth>USA</country_of_birth>
+             <works>
+                    <work>C Language</work>
+                    <work>UNIX</work>
+             </works>
+      </geek>
+
+      <!-- Second geek -->
+      <geek>
+             <name>linus torvalds</name>
+             <year_of_birth>1962</year_of_birth>
+             <country_of_birth>Finlande</country_of_birth>
+             <works>
+                    <work>Linux kernel</work>
+                    <work>Git</work>
+             </works>
+      </geek> 
+
+      <!-- Third geek -->
+      <geek>
+             <name>Eugene Kaspersky</name>
+             <year_of_birth>1965</year_of_birth>
+             <country_of_birth>Russia</country_of_birth>
+             <works>
+                    <work>Kaspersky Antivirus</work>
+             </works>
+      </geek>     
+</geeks>
+<!-- END OF XML -->

@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package com_company_pet;
+
+
+message PetIdentity{
+    string pet_name = 1;
+    int32  pet_age = 2;
+    bool   pet_gender = 3;
+}
+
+
+// petIdentity.proto

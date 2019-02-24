@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com_company_caesar;
+
+message CaesarCipher {
+    string caesar_cipher_text = 1; // Carries caesar cipher
+    int32 shift_key = 2; // Shift every letter with 3 positions
+}
+
